@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MAUIDeviceAndAppInfoSample.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="Black">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="20"
+            BackgroundColor="White"
+            Spacing="10">
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="22"
+                Text="Device Informtaion" />
+
+            <Label x:Name="LblDeviceInfo" FontSize="18" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="22"
+                Text="App Informtaion" />
+
+            <Label x:Name="LblAppInfo" FontSize="18" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
